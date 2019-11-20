@@ -1254,7 +1254,7 @@ class Viewer(wx.Panel):
 
         self.Refresh()
 
-    def UpdateTrackObjectState(self, evt=None, flag=None, obj_name=None):
+    def UpdateTrackObjectState(self, evt=None, flag=None, obj_name=None): # mudar
         if flag:
             self.obj_name = obj_name
             if not self.obj_actor:
